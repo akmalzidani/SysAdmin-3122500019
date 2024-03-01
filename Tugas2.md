@@ -120,33 +120,31 @@ Selain itu, terdapat sistem file virtual (/proc) yang berada di dalam memori dan
 
 ## 3. Tugas tambahan, Mengubah IPv4 melalui Network Manager
 
-Mencoba kustomisasi IPv4 lewat Network Manager
+<h4>Mencoba kustomisasi IPv4 lewat Network Manager</h4>
 
-Cek gateway, IP, Interface dan netmask melalui bantuan “sudo route -n”
+Cek gateway, IP, Interface dan netmask melalui bantuan “sudo route -n”<br>
 
 ![](images/tugas2/Aspose.Words.022e2579-d343-4a48-9699-84e17aa61a6b.001.png)
 
-Diketahui gateway 10.0.2.2 dan netmask /24 atau 255.255.255.0 dan
+Diketahui gateway 10.0.2.2 dan netmask /24 atau 255.255.255.0 dan nama device interfacenya adalah enp0s3<br>
 
-nama device interfacenya adalah enp0s3
-
-- Ini dalam kondisi terhubung ke internet eepiswlan.
+- Ini dalam kondisi terhubung ke internet eepiswlan.<br>
 
 ![](images/tugas2/Aspose.Words.022e2579-d343-4a48-9699-84e17aa61a6b.002.png)
 
-Ini default automatic IPv4 DHCP dan DNS automatic
+Ini default automatic IPv4 DHCP dan DNS automatic<br>
 
 ![](images/tugas2/Aspose.Words.022e2579-d343-4a48-9699-84e17aa61a6b.003.png) ![](images/tugas2/Aspose.Words.022e2579-d343-4a48-9699-84e17aa61a6b.004.png)
 
-Masih terhubung ke internet
+Masih terhubung ke internet<br>
 
 ![](images/tugas2/Aspose.Words.022e2579-d343-4a48-9699-84e17aa61a6b.005.png)
 
-Lalu coba mengganti IPv4 dan DNS secara manual
+Lalu coba mengganti IPv4 dan DNS secara manual<br>
 
 ![](images/tugas2/Aspose.Words.022e2579-d343-4a48-9699-84e17aa61a6b.006.png)
 
-On/Off koneksi untuk refresh perubahan IP yang telah dilakukan
+On/Off koneksi untuk refresh perubahan IP yang telah dilakukan<br>
 
 ![ref1]
 
@@ -154,23 +152,28 @@ On/Off koneksi untuk refresh perubahan IP yang telah dilakukan
 
 ![ref1]
 
-Setelah refresh, IPv4 dan DNS berhasil berubah![](images/tugas2/Aspose.Words.022e2579-d343-4a48-9699-84e17aa61a6b.009.png)
+Setelah refresh, IPv4 dan DNS berhasil berubah<br>
+![](images/tugas2/Aspose.Words.022e2579-d343-4a48-9699-84e17aa61a6b.009.png)
 
-Saat dicoba kembali dengan IP dan DNS baru, tidak dapat tersambung.![](images/tugas2/Aspose.Words.022e2579-d343-4a48-9699-84e17aa61a6b.010.png)
+Saat dicoba kembali dengan IP dan DNS baru, tidak dapat tersambung.<br>
+![](images/tugas2/Aspose.Words.022e2579-d343-4a48-9699-84e17aa61a6b.010.png)
 
-- Sekarang coba terhubung internet hotspot pribadi.
+- Sekarang coba terhubung internet hotspot pribadi.<br>
 
 ![](images/tugas2/Aspose.Words.022e2579-d343-4a48-9699-84e17aa61a6b.011.png)
 
-Dalam keaadaan default automatic![](images/tugas2/Aspose.Words.022e2579-d343-4a48-9699-84e17aa61a6b.012.png)
+Dalam keaadaan default automatic<br>
+![](images/tugas2/Aspose.Words.022e2579-d343-4a48-9699-84e17aa61a6b.012.png)
 
 ![](images/tugas2/Aspose.Words.022e2579-d343-4a48-9699-84e17aa61a6b.013.png)
 
-Berhasil terhubung ke internet dengan setting IPv4 Default![](images/tugas2/Aspose.Words.022e2579-d343-4a48-9699-84e17aa61a6b.014.png)
+Berhasil terhubung ke internet dengan setting IPv4 Default<br>
+![](images/tugas2/Aspose.Words.022e2579-d343-4a48-9699-84e17aa61a6b.014.png)
 
-Lalu coba setting IPv4 Manual![](images/tugas2/Aspose.Words.022e2579-d343-4a48-9699-84e17aa61a6b.015.png)
+Lalu coba setting IPv4 Manual<br>
+![](images/tugas2/Aspose.Words.022e2579-d343-4a48-9699-84e17aa61a6b.015.png)
 
-On/Off koneksi untuk refresh perubahan IP yang telah dilakukan
+On/Off koneksi untuk refresh perubahan IP yang telah dilakukan<br>
 
 ![ref1]
 
@@ -178,9 +181,13 @@ On/Off koneksi untuk refresh perubahan IP yang telah dilakukan
 
 ![ref1]
 
-Setelah refresh, IP berhasil diubah![](images/tugas2/Aspose.Words.022e2579-d343-4a48-9699-84e17aa61a6b.016.png)
+Setelah refresh, IP berhasil diubah <br>
 
-Berhasil terhubung setelah dilakukan perubahan IP dan DNS dengan menggunakan hotspot pribadi![](images/tugas2/Aspose.Words.022e2579-d343-4a48-9699-84e17aa61a6b.017.png)
+![](images/tugas2/Aspose.Words.022e2579-d343-4a48-9699-84e17aa61a6b.016.png)
+
+Berhasil terhubung setelah dilakukan perubahan IP dan DNS dengan menggunakan hotspot pribadi<br>
+
+![](images/tugas2/Aspose.Words.022e2579-d343-4a48-9699-84e17aa61a6b.017.png)
 
 [ref1]: images/tugas2/Aspose.Words.022e2579-d343-4a48-9699-84e17aa61a6b.007.png
 [ref2]: images/tugas2/Aspose.Words.022e2579-d343-4a48-9699-84e17aa61a6b.008.png

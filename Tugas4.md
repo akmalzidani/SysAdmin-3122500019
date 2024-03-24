@@ -127,20 +127,20 @@ sebelumnya.
 
 ## 3. Ikuti langkah-langkah instalasi DNS server dengan menggunakan aplikasi BIND9 pada Debian 12 anda [BIND9-debian-wiki](https://wiki.debian.org/Bind9#Debian_Bookworm)
 
-![](images/tugas4/image11.png)
+![](images/tugas4/image1.png)
 
 Proses intalasi paket yang diperlukan
 
-Bind9 → paket utama untuk menyediakan dns server
+`Bind9` → paket utama untuk menyediakan dns server
 
-Bind9-doc → paket yang berisikan dokumentasi mengenai bind9
+`Bind9-doc` → paket yang berisikan dokumentasi mengenai bind9
 
-Bind9-dnsutils → paket yang berisikan utils untuk mengelola bind9 salah
-satunya nslookup
+`Bind9-dnsutils` → paket yang berisikan utils untuk mengelola bind9 salah
+satunya `nslookup`
 
 ![](images/tugas4/image2.png)
 
-Konfigurasi utama bind9 yang ada di /etc/bind
+Konfigurasi utama bind9 yang ada di `/etc/bind`
 
 Acl internals {} untuk memberikan akses kontrol pada dns server secara
 internal pada ip tertentu.
@@ -163,8 +163,8 @@ Untuk listen-on untuk mengatur mana koneksi alamat ip yang didengar
 
 Pada file konfigurasi conf.local mengatur zone file yang kita simpan.
 
-Contoh pada gambar adalah mengatur zone file kelompok1.local sebagai
-domain name yang ada pada file di /var/lib/bind/db.kelompok1.local,
+Contoh pada gambar adalah mengatur zone file `kelompok1.local` sebagai
+domain name yang ada pada file di ` /var/lib/bind/db.``kelompok1.local `,
 begitu juga alamat ip terbalik.
 
 ![](images/tugas4/image5.png)
@@ -175,26 +175,26 @@ tidak ditemukan
 ![](images/tugas4/image6.png)
 
 Pada /var/lib/bind buat file db sesuai yang sudah ada di konfigurasi
-zone file sebelumnya. Contoh diatas adalah db.kelompok1.local
+zone file sebelumnya. Contoh diatas adalah db.`kelompok1.local`
 
 ![](images/tugas4/image7.png)
 
-Ini adalah isi dari file kelompok1.local
+Ini adalah isi dari file `kelompok1.local`
 
 Menyimpan serial dimana best practice nya adalah tahunBulanTanggalVersi
 
-Di file ini mengambil dari host ns.kelompok1.local.
+Di file ini mengambil dari host ns.`kelompok1.local`.
 
-Untuk address nya menuju pada alamat ip 192.168.1.1
+Untuk address nya menuju pada alamat ip `192.168.1.1`
 
 Untuk www dan mail kita aliaskan sama untuk ns
 
 ![](images/tugas4/image8.png)
 
-Ini adalah isi dari file kelompok1.local.inv
+Ini adalah isi dari file `kelompok1.local`.inv
 
 Disini menyimpan alamat ip, pada kasus ini adalah 1 yang mengarah ke
-(pointer to) ns.kelompok1.local.
+(pointer to) ns.`kelompok1.local`.
 
 ![](images/tugas4/image9.png)
 
@@ -203,16 +203,16 @@ konfigurasi sudah benar.
 
 Pada kasus ini domain name dicek apakah sudah benar, jika status 'OK'
 artinya sudah terkonfigurasi dengan benar. Begitu pula untuk alamat ip
-192.168.1
+`192.168.1.1`
 
 ![](images/tugas4/image10.png)
 
-Setelah itu konfigurasi file /etc/resolv.conf
+Setelah itu konfigurasi file `/etc/resolv.conf`
 
 Ini adalah konfigurasi untuk sistem dns pada linux
 
-Pada kasus ini ketika search kelompok1.local maka akan mencari ke
-nameserver utama 192.168.1.1, jika tidak merespons atau tidak ada maka
+Pada kasus ini ketika search `kelompok1.local` maka akan mencari ke
+nameserver utama `192.168.1.1`, jika tidak merespons atau tidak ada maka
 akn mencari di alamat ip cadangannya yaitu 2 baris bawahnya.
 
 ![](images/tugas4/image11.png)
@@ -223,7 +223,7 @@ active artinya sudah berjalan
 ![](images/tugas4/image12.png)
 
 cek menggunakan sudo netstat -ptlun untuk
-melihat apakah port dns 192.168.1.1 (53) sudah terbuka. Jika ada artinya
+melihat apakah port dns `192.168.1.1` (53) sudah terbuka. Jika ada artinya
 sudah terbuka
 
 ![](images/tugas4/image13.png)
@@ -233,10 +233,6 @@ sudah terbuka
 <br>
 ![](images/tugas4/image16.png)
 
-Menggunakan perintah nslookup dan dig untuk memerika apakah dns server
-bisa mememberi jawaban. Pada kasus ini kelompok1.local memiliki ip
-192.168.1.1
-
-```
-
-```
+Menggunakan perintah `nslookup` dan dig untuk memerika apakah dns server
+bisa mememberi jawaban. Pada kasus ini `kelompok1.local` memiliki ip
+`192.168.1.1`

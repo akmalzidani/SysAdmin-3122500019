@@ -19,6 +19,14 @@
 
 ## 1. Tugas Baca tentang Ekosistem Internet (Materi sudah diunggah di Ethol). Tuliskan pendapatmu tentang bagaimana Internet bekerja (tugas pribadi)!
 
+Dalam konteks Internet, yang menjadi tulang punggung interaksi global saat ini, perlu diperhatikan berbagai aspek teknis dan kebijakan yang membentuk ekosistemnya. Pertama, kita harus paham bahwa Internet terdiri dari dua bagian besar: sistem routing yang menentukan cara alamat-alamat (yang dikenal sebagai IP addresses) terhubung satu sama lain, dan sistem penamaan yang memberikan nama alias atau domain kepada alamat-alamat tersebut agar lebih mudah diingat. Keduanya merupakan fondasi yang penting, yang harus terus diperbaiki dan diperbarui oleh organisasi independen seperti IETF dan IEEE.
+
+Dalam menjelajahi internet, kita juga harus memahami tentang bagaimana alamat-alamat ini terhubung satu sama lain, seperti halnya jalan-jalan yang menghubungkan tempat-tempat di kota. Konsep seperti peering connection dan transit provider routing policy mengatur bagaimana paket data bergerak di internet, dengan tujuan agar pengaliran informasi menjadi lebih efisien dan cepat. Selain itu, ada juga konsep hot potato routing yang mirip dengan melemparkan kentang panas, di mana paket data diteruskan ke penyedia layanan lain sesegera mungkin.
+
+Di sisi lain, kita juga perlu memahami bagaimana nama-nama alias atau domain dikelola dan diterjemahkan ke alamat IP yang sebenarnya, melalui sistem seperti DNS (Domain Name System). Ada dua jenis DNS yang perlu diperhatikan: authoritative yang menangani alamat-alamat IP yang dikelolanya sendiri, dan non-authoritative yang memberikan jawaban atas alamat IP yang tidak dimilikinya. Semua ini diatur oleh lembaga-lembaga seperti ICANN dan IANA, yang bertanggung jawab atas regulasi dan distribusi alamat IP di internet.
+
+Selain aspek teknis, perlu juga diperhatikan aspek kebijakan yang mengatur penggunaan internet. Ini termasuk berbagai lembaga standarisasi seperti IETF, IEEE, W3C, dan ITU yang menetapkan standar untuk protokol, bahasa, dan enkripsi yang digunakan dalam internet. Selain itu, peran penyedia layanan seperti content provider, access provider, dan transit provider juga penting dalam menyediakan akses dan konten kepada pengguna internet. Terakhir, ada juga lembaga seperti clearing house yang mengatur pertukaran data dan transaksi di internet. Dengan memahami semua ini, kita bisa lebih baik mengelola dan memanfaatkan internet dengan efektif.
+
 ## 2. Bagaimana Cara kerja dari iterative dan recursive dari DNS Query, ada 8 step, dari PC anda!
 
 ### Misal dari BBC.com
@@ -72,15 +80,13 @@ terhubung ke internet.**
 
 **Sumber:** <https://www.cloudflare.com/learning/dns/what-is-dns/>
 
-## Parafrase Analogi Pencarian Alamat Situs Web
+## Analogi Pencarian Alamat Situs Web
 
 **Analogi:**
 
-Proses mencari alamat situs web bbc.com diibaratkan seperti mencari
-alamat rumah seseorang di kota yang tidak pernah Anda kunjungi
-sebelumnya.
+Proses mencari alamat situs web bbc.com bisa dibandingkan dengan mencari alamat rumah seseorang di sebuah kota yang belum pernah dikunjungi sebelumnya.
 
-**Langkah-langkah:**
+**Langkah-langkahnya sebagai berikut:**
 
 **1. Permintaan Awal:**
 

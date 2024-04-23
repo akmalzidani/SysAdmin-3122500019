@@ -518,38 +518,53 @@ Yeay sudah berhasil
 ## Simulasi mengirim pesan melalui email
 
 Disini saya login menggunakan user akmal/123 pada RoundCube
+
 ![](images/tugas5/image104.png) <br>
 
 dan user mahen/123 pada ThunderBird
+
 ![](images/tugas5/image105.png) <br>
 ![](images/tugas5/image106.png) <br>
 ![](images/tugas5/image107.png) <br>
 ![](images/tugas5/image108.png) <br>
 
 Berhasil login mahen@kelompok1.local pada ThunderBird
+
 ![](images/tugas5/image109.png) <br>
 
 Sekarang pada RoundCube user akmal@kelompok1.local mencoba kirim pesan ke mahen@kelompok1.local
 
 Klik Compose
+
 ![](images/tugas5/image110.png) <br>
 
 Masukkan pesan dan email tujuan, jika sudah klik Send
+
 ![](images/tugas5/image111.png) <br>
 
 Muncul Notifikasi Message sent successfully dan muncul notifikasi ThunderBird
+
 ![](images/tugas5/image112.png) <br>
 
 Cek pada ThunderBird user mahen dan pesan dari user akmal sudah masuk
+
 ![](images/tugas5/image113.png) <br>
 
 Sekarang pada ThunderBird user mahen mencoba membalas pesan akmal, klik Reply to Sender Only
+
 ![](images/tugas5/image114.png) <br>
 
 Lalu klik send
+
 ![](images/tugas5/image115.png) <br>
 
 Cek RoundCube, jika belum masuk klik refresh pada browser
+
 ![](images/tugas5/image116.png) <br>
 ![](images/tugas5/image117.png) <br>
+
 Pesan berhasil masuk!
+
+<hr>
+
+## [Klik DISINI --> Praktikum Lab Jaringan | Percobaan Lanjutan, Kirim pesan antar kelompok (Tugas 5.1)](https://github.com/akmalzidani/SysAdmin-3122500019/blob/main/Tugas5.1.md)

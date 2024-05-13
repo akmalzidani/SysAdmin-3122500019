@@ -13,3 +13,5 @@
   - Lanjutan 5.2 (Analisis MIME, POP3, dan SMTP) : [Click Here](https://github.com/akmalzidani/SysAdmin-3122500019/blob/main/Tugas5.2.md)
 
 - Tugas 6 : [Click Here](https://github.com/akmalzidani/SysAdmin-3122500019/blob/main/Tugas6.md)
+
+- Tugas 7 : [Click Here](https://github.com/akmalzidani/SysAdmin-3122500019/blob/main/Tugas7.md)
